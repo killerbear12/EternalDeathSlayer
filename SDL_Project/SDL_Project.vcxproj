@@ -39,8 +39,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>G:\SDL_ProjectCG\SDL_Project\SDL2-2.0.4\include;G:\SDL_ProjectCG\SDL_Project\SDL2_image-2.0.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>G:\SDL_ProjectCG\SDL_Project\SDL2_image-2.0.1\lib\x86;G:\SDL_ProjectCG\SDL_Project\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>G:\SDL_ProjectApril21Update\SDL_Project\SDL2_image-2.0.1\include;G:\SDL_ProjectApril21Update\SDL_Project\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\SDL_ProjectApril21Update\SDL_Project\SDL2_image-2.0.1\lib\x86;G:\SDL_ProjectApril21Update\SDL_Project\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\Users\student\Desktop\SDL_Project\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
@@ -79,7 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\Downloads\05_optimized_surface_loading_and_soft_stretching\05_optimized_surface_loading_and_soft_stretching\stretch.bmp" />
+    <Image Include="background.png" />
     <Image Include="down.bmp" />
+    <Image Include="foo.png" />
     <Image Include="hello_world.bmp" />
     <Image Include="left.bmp" />
     <Image Include="LinkArray.bmp" />

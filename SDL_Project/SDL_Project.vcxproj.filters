@@ -56,5 +56,11 @@
     <Image Include="viewport.png">
       <Filter>Source Files</Filter>
     </Image>
+    <Image Include="background.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="foo.png">
+      <Filter>Source Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
